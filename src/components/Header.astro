@@ -1,0 +1,24 @@
+---
+import SpotifyIcon from "../icons/Spotify.astro";
+import HomeIcon from "../icons/Home.astro";
+import SearchIcon from "../icons/Search.astro";
+---
+
+<nav class="flex flex-row flex-1 gap-2 justify-between">
+  <div class="bg-green-500 rounded-full p-2">
+    <ul>
+      <SpotifyIcon />
+    </ul>
+  </div>
+  <div class="flex flex-row rounded-lg">
+    <div class="bg-zinc-800 rounded-full p-2 mr-3">
+      <HomeIcon />
+    </div>
+    <div class="w-64 bg-zinc-800 rounded-lg p-2">
+      <SearchIcon />
+    </div>
+  </div>
+  <div class="bg-zinc-800 rounded-full p-2">
+    <SpotifyIcon />
+  </div>
+</nav>
