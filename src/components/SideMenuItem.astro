@@ -7,5 +7,10 @@ const { href } = Astro.props;
 ---
 
 <li>
-  <a class="flex gap-" href={href}></a>
+  <a
+    class="flex gap-4 text-zinc-400 hover:text-zinc-200 items-center py-3 font-medium transition duration-300"
+    href={href}
+  >
+    <slot />
+  </a>
 </li>
