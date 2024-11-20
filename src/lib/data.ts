@@ -40,29 +40,29 @@ export const playlists: Playlist[] = [
   {
     id: '4',
     albumId: 4,
-    title: "Blue Note Study Time",
+    title: "Super Real Me",
     color: colors.blue,
     cover:
-      "https://f4.bcbits.com/img/a1962013209_16.jpg",
-    artists: ["Raimu", "Yasumu"],
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPut6NFopOHRNn_Cp2mgtkEJ8oDahJUHfLmA&s",
+    artists: ["ILLIT"],
   },
   {
     id: '5',
     albumId: 5,
-    title: "Chau Saura Session",
+    title: "THE ALBUM",
     color: colors.purple,
     cover:
-      "https://f4.bcbits.com/img/a2793859494_16.jpg",
-    artists: ["Chau Saura", "amies", "kyu"],
+      "https://cdn-images.dzcdn.net/images/cover/08b26a84be2b1030aef7c13a1720cf50/0x1900-000000-80-0-0.jpg",
+    artists: ["BLACKPINK"],
   },
   {
     id: '6',
     albumId: 6,
-    title: "Like a Necessity",
+    title: "All Eyes On Me",
     color: colors.orange,
     cover:
-      "https://f4.bcbits.com/img/a0363730459_16.jpg",
-    artists: ["WFS", "Nadav Cohen"],
+      "https://cdn-images.dzcdn.net/images/cover/5e6981118f6989518b0c2b814d3271c5/0x1900-000000-80-0-0.jpg",
+    artists: ["JISOO"],
   },
 ];
 
